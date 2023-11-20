@@ -1,0 +1,448 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@700&family=Ubuntu:wght@300;400&display=swap');
+
+#homesection {
+    font-family: sens-serif
+}
+
+#homediv {
+    background-color: #d78746cb;
+    box-sizing: border-box;
+    width: auto;
+    height: 39px;
+    align-items: center;
+    border-radius: 12px;
+position: sticky;
+top: 4px;
+}
+
+#homename {
+    margin: 17px 34px;
+    font-size: 166%;
+}
+
+.horizontal-dots {
+    cursor: pointer;
+    width: 19px;
+    height: 11px;
+    background-image: radial-gradient(circle, black 1.5px, transparent 2.0px);
+    background-size: 6px 10px;
+    background-color: #EEEEEE;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+    border-bottom: 1px solid #CCCCCC;
+    border-left: 1px solid #CCCCCC;
+    border-radius: 0.2em;
+    margin-left: 14px;
+    float: right;
+    margin: -36px 11px;
+}
+
+.horizontal-dots:hover {
+    border: solid .2px #0198E1;
+}
+
+#navbar {
+    width: auto;
+    height: 70px;
+    background: rgb(157, 119, 54);
+    margin: 13px auto;
+    display: block;
+    position: sticky;
+    top: 44px;
+}
+
+#policelogo {
+    height: 62px;
+    width: 51px;
+    margin: 4px 45px;
+    cursor: pointer;
+}
+
+.ul {
+    margin: -71px 0px 0px 800px;
+    padding: 4px;
+}
+
+.ul ul {
+    overflow: auto;
+    word-spacing: 10px;
+    font-weight: lighter;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+
+}
+
+.ul li {
+    display: inline;
+    display: contents;
+    list-style: none;
+    /* to remove bullates*/
+    color: white;
+    margin: 5px 5px 5px 6px;
+    padding: 5px;
+    filter: none;
+}
+
+.ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.dropdown-btn {
+    background-color: #EBE3D5;
+    cursor: pointer;
+}
+
+#signup {
+    float: right;
+    background-color: black;
+    color: white;
+    padding: 8px 9px;
+    margin: -50px 10px;
+
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+#signup:hover {
+    opacity: 1;
+}
+
+#navbarcomp {
+    background-color: #F3EEEA;
+    min-height: 700px;
+    width: auto;
+    margin: -55px 0px 0px 0px;
+}
+
+#textone {
+    font-size: 250%;
+    text-align: center;
+    padding: 170px 5px 0px 5px;
+}
+
+#texttwo {
+    font-size: 150%;
+    text-align: center;
+    padding: 0px 5px 5px 5px;
+}
+
+#forinline {
+    display: inline;
+}
+
+#learnmore {
+
+    background-color: black;
+    color: white;
+    padding: 8px 9px;
+    margin: 0px 10px 0px 860px;
+    cursor: pointer;
+    opacity: 0.9;
+
+}
+
+#learnmore:hover {
+    opacity: 1;
+}
+
+#signupbutton {
+
+    background-color: #F3EEEA;
+    padding: 8px 9px;
+    margin: -34px 0px 0px 474px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+}
+
+#signupbutton:hover {
+    opacity: 1;
+}
+
+
+#heroheadersection {
+    background-color: #B0A695;
+    height: 684px;
+    width: auto;
+    margin: 40px 0px 0px 0px;
+}
+
+
+#simple {
+    font-size: 111%;
+    display: block;
+    padding: 150px 0px 0px 130px;
+    height: 0px;
+
+}
+
+#effortless {
+    font-size: 40px;
+    padding: 0px 0px 0px 126px;
+}
+
+#Registerbutton {
+    background-color: #B0A695;
+    padding: 8px 9px;
+    margin: -24px 0px 0px 60px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+
+}
+
+#Registerbutton:hover {
+    opacity: 1;
+}
+
+.learnmorebtn {
+    background-color: #EBE3D5;
+    cursor: pointer;
+    padding: 8px 9px;
+    margin: 0px 0px 0px 5px;
+}
+
+/* #iconquick{
+    display: inline-block;
+    height: auto;
+    width: auto;
+    
+padding: 0px 0px 0px 0px;
+margin: 0px 0px 0px 800px;
+} */
+
+#quick {
+    float: inline-end;
+    margin: -315px 120px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+#howitworksection {
+    background-color: #F3EEEA;
+    height: 684px;
+    width: auto;
+    margin: 40px 0px 0px 0px;
+}
+
+.qrcode {
+    height: 520px;
+    width: 520px;
+    margin: 86px 60px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    float: right;
+}
+
+#textqr {
+    padding: 210px 0px 0px 70px;
+    font-size: 20px;
+}
+
+#bloglistsection {
+    height: 930px;
+    width: auto;
+    background-color: #EBE3D5;
+
+    margin: 40px 0px 0px 0px;
+    font-size: 18px;
+}
+
+.blogtext {
+    padding: 35px 0px 0px 166px;
+}
+
+#contblog {
+
+    height: 580px;
+    width: auto;
+    padding: 15px 15px;
+    display: flex;
+    gap: 90px;
+}
+
+#cont1 {
+    border: black 1px solid;
+    height: 612px;
+    width: 450px;
+    margin-left: 150px;
+    margin-top: -18px;
+    border-radius: 30px 30px 0px 0px;
+}
+
+#cont2 {
+    border: black 1px solid;
+    height: 612px;
+    width: 450px;
+    margin-top: -18px;
+    border-radius: 30px 30px 0px 0px;
+}
+
+#cont3 {
+    border: black 1px solid;
+    height: 612px;
+    width: 450px;
+    margin-top: -18px;
+    border-radius: 30px 30px 0px 0px;
+}
+
+.contblogclass {
+    margin: 0px 0px 0px 0px;
+
+}
+
+.ytframe {
+    border-radius: 20px;
+}
+
+#textcontblog {
+    font-size: 26px;
+    padding: 0px 0px 0px 20px;
+}
+
+#icon {
+    padding-left: 20px;
+    display: flex;
+}
+
+.icontext {
+    margin: -22px 0px 0px 10px;
+}
+
+.viewall {
+    float: right;
+    background-color: black;
+    color: white;
+    padding: 12px 13px;
+    margin: -70px 180px;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.viewall:hover {
+    opacity: 1;
+}
+
+#footer {
+    height: 480px;
+    width: auto;
+    background-color: #F3EEEA;
+    margin: 40px 0px 0px 0px;
+}
+
+#contfooter {
+
+    height: 580px;
+    width: auto;
+    padding: 15px 15px;
+    display: flex;
+    gap: 90px;
+}
+
+#contfoot1 {
+    border: black 1px solid;
+    height: 400px;
+    width: 200px;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 45px 0px 10px;
+    border-radius: 30px 30px 0px 0px;
+}
+
+#contfoot2 {
+    border: black 1px solid;
+    height: 400px;
+    width: 800px;
+    padding: 50px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    border-radius: 30px 30px 0px 0px;
+    display: flex;
+    gap: 100px;
+}
+
+#contfoot3 {
+    border: black 1px solid;
+    height: 400px;
+    width: 450px;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    border-radius: 30px 30px 0px 0px;
+}
+
+#policelogo2 {
+    height: 170px;
+    width: 150px;
+    margin: 70px 25px;
+    cursor: pointer;
+}
+
+.contfoottext1 ul {
+    overflow: auto;
+    word-spacing: 10px;
+    font-weight: lighter;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+}
+
+.contfoottext1 li {
+
+    list-style: none;
+    /* to remove bullates*/
+    color: white;
+    margin: 5px 5px 5px 6px;
+    padding: 5px;
+    filter: none;
+}
+
+.contfoottext1 li a {
+    color: black;
+    text-decoration: none;
+}
+
+#nasho{
+    font-size: larger;
+}
+
+#footer3{
+    word-spacing: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#emailinput{
+    height: 10px;
+    width: 30px;
+}
+
+ @media ( max-width: 500px){
+    #homesection{
+        flex-direction: column;}
+
+        #homediv{
+            width: 100%;
+        }
+    
+        #navbar{
+            width: 100%;
+        }
+
+        #navbarcomp{
+            width: 100%;
+        }
+
+        #heroheadersection{
+            width: 100%;
+        }
+
+        #howitworksection{
+            width: 100%;
+        }
+
+        #bloglistsection{
+            width: 100%;
+        }
+
+        .viewallbutton{
+            width: 100%;
+        }
+
+        #footer{
+            width: 100%;
+        }
+}
+
